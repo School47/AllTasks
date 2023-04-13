@@ -15,7 +15,7 @@ string DecToBin(int dec)
         temp = dec % 2 + temp;
         dec = dec / 2;
     }
-    int bin = 0;
+    //int bin = 0;
     return temp;
 }
 int DecToBinWithInt(int dec)

@@ -36,7 +36,7 @@ double[,] CreateArrayMatrix(int rows, int colum, double min, double max)
 
 void PrintArray(double[,] arr)
 {
-
+    Console.WriteLine("Итоговая Матрица:");
     for (int i = 0; i < arr.GetLength(0); i++)
     {
         for (int j = 0; j < arr.GetLength(1); j++)
